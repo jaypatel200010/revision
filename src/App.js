@@ -15,11 +15,14 @@ import Func_life from "./Life_cycle/Func/Func_life";
 import Module_css from "./Module_css/Module_css";
 import Mui_component from "./Mui_component/Mui_component";
 import Main_Props from "./Props/Main_Props";
+import Props_drilling from "./Props_drilling/Props_drilling";
 import App_Routing from "./Routing/App_Routing";
 import Sass_css from "./Sass_css/Sass_css";
 import State_class from "./State/Class/State_class";
 import State_func from "./State/Func/State_func";
 import Styled_component from "./Styled_component/Styled_component";
+import Use_Reducer from "./Use_reducer/Use_Reducer";
+import Use_Context from "./useContext/Use_Context";
 
 function App() {
   return (
@@ -46,7 +49,10 @@ function App() {
         {/* <Func_life /> */}
         {/* <State_class /> */}
         {/* <State_func /> */}
-        <App_Routing />
+        {/* <App_Routing /> */}
+        {/* <Props_drilling /> */}
+        {/* <Use_Context /> */}
+        <Use_Reducer />
       </div>
     </>
   );
